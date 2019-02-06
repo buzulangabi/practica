@@ -12,14 +12,11 @@ namespace gabi_practica
 
         public string Name { get; set; }
 
-
-
         public Product(int id, decimal price, string name)
         {
             this.ID = id;
             this.Price = price;
             this.Name = name;
-
         }
     }
 }
