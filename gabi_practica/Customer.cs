@@ -10,7 +10,7 @@ namespace gabi_practica
         public string Name { get; set; }
         public int Age { get; set; }
         public string Address { get; set; }
-
+    
         public Customer(int id, string name, int age, string address)
         {
             this.Id = id;
