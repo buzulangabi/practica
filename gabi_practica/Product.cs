@@ -4,7 +4,7 @@ using System.Text;
 
 namespace gabi_practica
 {
-    class Product
+    public class Product
     {
         public int ID { get; set; }
 
