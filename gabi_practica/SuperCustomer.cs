@@ -9,7 +9,7 @@ namespace gabi_practica
        
         public decimal Discount { get; set; }
 
-        public SuperCustomer(int id, string name, int age, decimal discount):base(id,name,age)
+        public SuperCustomer(int id, string name, int age, string address, decimal discount):base(id,name,age,address)
         {
             this.Discount = discount;
         }
